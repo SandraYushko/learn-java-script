@@ -1,14 +1,4 @@
-const personOne={
-    name:"Bob",
-    age:21
+function printMyName () {
+    console.log('Bogdan')
 }
-
-function increasePersonAge (person) {
-    const updatedPerson=Object.assign({}, person)
-    updatedPerson.age+=1
-    return updatedPerson
-}
-
-const updatedPersonOne=increasePersonAge (personOne)
-console.log (personOne.age)
-console.log (updatedPersonOne.age)
+setTimeout (printMyName,1000)
