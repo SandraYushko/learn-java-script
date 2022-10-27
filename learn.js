@@ -1,4 +1,7 @@
-function printMyName () {
-    console.log('Bogdan')
+const a=5
+function myFn () {
+    function innerFn () {
+        console.log(a)
+    }
+    innerFn ()
 }
-setTimeout (printMyName,1000)
