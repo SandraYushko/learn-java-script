@@ -1,7 +1,4 @@
-const a=5
-function myFn () {
-    function innerFn () {
-        console.log(a)
-    }
-    innerFn ()
-}
+let myName="Sandra"
+let myAge=32
+let myCity="Minsk"
+console.log(`${myName} ${myAge} ${myCity}`)
