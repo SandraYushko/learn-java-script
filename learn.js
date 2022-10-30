@@ -1,4 +1,4 @@
-const multByFactot=(value, multiplier=1)=>{
+const multByFactot=function (value, multiplier=1) {
     return value*multiplier
 }
 
