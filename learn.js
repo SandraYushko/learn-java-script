@@ -1,4 +1,6 @@
-let myName="Sandra"
-let myAge=32
-let myCity="Minsk"
-console.log(`${myName} ${myAge} ${myCity}`)
+function multByFactot (value, multiplier=1) {
+    return value*multiplier
+}
+
+multByFactot(10,2)
+multByFactot(5)
