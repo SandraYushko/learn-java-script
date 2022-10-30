@@ -1,7 +1,6 @@
-const a=5
-function myFn () {
-    function innerFn () {
-        console.log(a)
-    }
-    innerFn ()
+const multByFactot=function (value, multiplier=1) {
+    return value*multiplier
 }
+
+multByFactot(10,2)
+multByFactot(5)
