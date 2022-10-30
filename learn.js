@@ -1,6 +1,2 @@
-let name = "Ilya";
-
-alert( `hello ${1}` ); 
-
-alert( `hello ${"name"}` ); 
-alert( `hello ${name}` );
+let user=prompt('what is your name?');
+alert(user);
