@@ -1,6 +1,5 @@
-const multByFactot=function (value, multiplier=1) {
-    return value*multiplier
-}
-
-multByFactot(10,2)
-multByFactot(5)
+let admin;
+let name;
+name="Джон";
+admin=name;
+alert(admin)
