@@ -1,5 +1,10 @@
-let vopros=prompt("Какое \"официальное\" название JavaScript?",'');
-if (vopros=="ECMAScript") {
-    alert ("Верно!");
+let chislo=prompt("Введите число",'');
+if (chislo>0) {
+    alert ("1");
 } 
-else {alert ("Не знаете? ECMAScript!")};
+else if (chislo<0) {
+    alert ("-1");
+} 
+else if (chislo==0) {
+    alert ("0");
+} 
