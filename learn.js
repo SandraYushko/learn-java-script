@@ -1,5 +1,4 @@
-for (let i=1; i<=10; i++) {
-    if (i%2!=0) {
-        continue;}
-        console.log(i+"<br/>");
-}
+let i = 0;
+while (i < 3) {
+    alert( `number ${i++}!` );
+  }
