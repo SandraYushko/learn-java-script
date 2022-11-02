@@ -1,5 +1,5 @@
-let age=prompt("Введите значение переменной",'');
-if ((age>=14)&&(age<=90)) {
-    alert ("верно");
-} 
-else {alert ("значение превышено");}
+for (let i=1; i<=10; i++) {
+    if (i%2!=0) {
+        continue;}
+        console.log(i+"<br/>");
+}
