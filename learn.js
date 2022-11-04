@@ -1,11 +1,15 @@
-if (browser='Edge') {
-    alert("You've got the Edge!");  
-}
-else if (browser='Chrome', 'Firefox', 'Safari', 'Opera') {
-    alert( 'Okay we support these browsers too');
-}
+const number = +prompt('Введите число между 0 и 3', '');
+switch (number) {
+case 0:
+  alert('Вы ввели число 0');
+break;
 
-else {
-    alert('We hope that this page looks ok!');
-}
-      
+case 1:
+  alert('Вы ввели число 1');
+break;
+
+case 2:
+case 3:
+  alert('Вы ввели число 2, а может и 3');
+break;
+}     
