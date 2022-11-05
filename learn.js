@@ -1,4 +1,8 @@
-function min(a, b) {
-    return a < b ? a : b;
+function pow(x,n){
+    return (x*=n);
+    
   } 
-min(3,-1)
+  let x=prompt("введите значение х",' ')
+  let n=prompt("введите значение степени",' ')
+  pow(x,n);
+  alert (pow(x,n));
