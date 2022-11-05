@@ -1,9 +1,4 @@
 function checkAge(age) {
-    if (age > 18) {
-      return alert('true');
-    }
-    // ...
-    return confirm('Родители разрешили?');
-  } 
-  let age=prompt('введите ваш возраст');
-  checkAge(age) 
+ return (age > 18)? true : confirm('Родители разрешили?');
+}  
+ checkAge(3) 
