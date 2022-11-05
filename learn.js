@@ -1,4 +1,4 @@
-function checkAge(age) {
- return (age > 18)||confirm('Родители разрешили?');
-}  
- checkAge(3) 
+function min(a, b) {
+    return a < b ? a : b;
+  } 
+min(3,-1)
