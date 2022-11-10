@@ -1,6 +1,9 @@
-function sayHi() {
-    alert( "Привет" );
-  }
-  
-  alert( sayHi ); // выведет код функции
-  
+const myObject={
+  x:10,
+  y:true,
+  z:'abc'
+}
+ 
+Object.values(myObject).forEach(value=>{
+  console.log(value)
+})
