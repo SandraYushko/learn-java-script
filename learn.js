@@ -1,9 +1,7 @@
-const myObject={
-  x:10,
-  y:true,
-  z:'abc'
+function squareSum(numbers){
+  let sum=0;
+  for (i=0; i<numbers.length; i++) {
+    sum+=numbers[i]**2
+  }
+  return sum;
 }
- 
-Object.values(myObject).forEach(value=>{
-  console.log(value)
-})
