@@ -1,7 +1,18 @@
-function squareSum(numbers){
-  let sum=0;
-  for (i=0; i<numbers.length; i++) {
-    sum+=numbers[i]**2
+var arrayOfSheep = [true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true ];
+
+  function countSheeps(arrayOfSheep) {
+    // TODO May the force be with you
+    for (let i=0; i<arrayOfSheep.length; i++){
+      let k=0;
+      if (arrayOfSheep[i]===true) {k+=1}
+    }
+    return k
   }
-  return sum;
-}
+
+
+  
