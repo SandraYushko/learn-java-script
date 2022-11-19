@@ -1,3 +1,3 @@
-let a = 'abcde';
+let a = '12345';
 
-console.log(a[a.length-1]);
+console.log(Number(a[2])+Number(a[4]));
