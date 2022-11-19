@@ -1,3 +1,6 @@
-let a = '12345';
-a=a[4]+a[3]+a[2]+a[1]+a[0];
-console.log(a);
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
