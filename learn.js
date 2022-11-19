@@ -1,3 +1,3 @@
 let a = '12345';
-
-console.log(Number(a[2])+Number(a[4]));
+a=a[4]+a[3]+a[2]+a[1]+a[0];
+console.log(a);
