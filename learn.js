@@ -1,4 +1,3 @@
-function makeUpperCase(str) {
-  // Code here
-  return str.toUpperCase()
-}
+let r=30;
+let s=3.14*r*r;
+alert(s);
