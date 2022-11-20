@@ -1,3 +1,3 @@
-let r=30;
-let s=3.14*r*r;
-alert(s);
+let arr = [1, 2, 'a', 'b', null, true, false];
+alert(arr);
+console.log(arr);
