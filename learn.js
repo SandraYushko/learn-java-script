@@ -1,4 +1,4 @@
-function doubleInteger(i) {
-  // i will be an integer. Double it and return it.
-  return i * 2;
+function past(h, m, s){
+ 
+  return (h*60*60*1000)+(m*60*1000)+(s*1000);
 }
