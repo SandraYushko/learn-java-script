@@ -1,4 +1,4 @@
-function numberToString(num) {
-  // Return a string of the number here!
-  return String(num);
+function cockroachSpeed(s) {
+  //Good Luck!
+  return parseInt(s*100000/3600);
 }
