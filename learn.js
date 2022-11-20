@@ -1,4 +1,4 @@
-function evenOrOdd(number) {
-  if (number%2==0) {return "Even"}
-  else {return "Odd"}
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i * 2;
 }
