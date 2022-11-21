@@ -1,3 +1,9 @@
-let obj = {x: 1, y: 2, z: 3};
+var countSheep = function (num){
+  //your code here
+ let text='';
+ for (i=1; i<=num;i++) {
 
-console.log(Object.keys(obj).length);
+    text+=`${i}`+' sheep...';
+  }
+  return text;
+}
