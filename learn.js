@@ -1,10 +1,6 @@
-// Setup
-const myArray = [];
-let i = 10;
+function factorial(n) {
+  if (n == 1) return 1;
+  return n * factorial(n-1);
+}
 
-// Only change code below this line
-
-do {
-  myArray.push(i);
-  i++;
-} while (i < 10);
+alert( factorial(5) ); // 120
