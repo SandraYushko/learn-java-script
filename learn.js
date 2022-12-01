@@ -1,20 +1,9 @@
-const myPlants = [
-  {
-    type: "flowers",
-    list: [
-      "rose",
-      "tulip",
-      "dandelion"
-    ]
-  },
-  {
-    type: "trees",
-    list: [
-      "fir",
-      "pine",
-      "birch"
-    ]
-  }
-];
+// Setup
+const myArray = [];
+let i = 5;
 
-const secondTree = myPlants[1].list[1];
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+// Only change code below this line
