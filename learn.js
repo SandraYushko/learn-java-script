@@ -1,4 +1,6 @@
-function paperwork(n, m) {
-  if (n<0 || m<0) {return 0;}
-  else {return n*m}
+function invert(array) {
+  array.forEach(function(item, index){
+    array[index]=-item;
+  }) 
+  return array;
 }
