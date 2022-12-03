@@ -1,3 +1,4 @@
-function smash (words) {
-  return words.join(" ");
-  }
+function stringToArray(string){
+ 
+  return string.split(' ');
+}
