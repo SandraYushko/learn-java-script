@@ -1,5 +1,5 @@
-function century(year) {
-  // Finish this :)
-  
-  return Math.ceil(year/100);
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+  return Math.min.apply(null,args);  
+  }
 }
