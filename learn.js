@@ -1,4 +1,4 @@
-function opposite(number) {
-  //your code here
-  return number*(-1)
-}
+function solution(str){
+  
+  return str.split("").reverse().join("");
+   }
