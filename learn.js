@@ -1,14 +1,18 @@
-let num = 56
+let lang = 'ru';
 
-	if (num >= 10 && num <= 99) {
-		let num1=String(num);
-    num1=Number(num1[0])+Number(num1[1]);
-    console.log(num1);
-    if (num1<=9) {
-      console.log('summa odnoznachna');
-    }
-    else {
-      console.log('summa dvuznachna');
-    }
-	} 
-  
+switch (lang) {
+  case 'ru':
+    console.log('рус');
+    break;
+  case 'en':
+    console.log('анг');
+    break;
+  case 'de':
+    console.log('нем');
+    break;
+  default:
+    console.log('язык не поддерживается');
+    break;
+}
+
+
