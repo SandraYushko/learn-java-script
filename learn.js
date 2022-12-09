@@ -1,6 +1,7 @@
-function removeChar(str){
-  //You got this!
- return str.slice(1,-1);
- };
+function makeNegative(num) {
+  // Code?
+  let negativ=(num<0)?num:(-num);
+  return negativ;
+}
 
 
