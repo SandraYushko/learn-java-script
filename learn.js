@@ -1,7 +1,6 @@
-function makeNegative(num) {
-  // Code?
-  let negativ=(num<0)?num:(-num);
-  return negativ;
+const stringToNumber = function(str){
+  // put your code here
+  return +str;
 }
 
 
