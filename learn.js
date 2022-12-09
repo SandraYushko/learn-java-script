@@ -1,10 +1,9 @@
-var summation = function (num) {
-  // Code here
-  let sum=0;
-  for (let i=0; i<=num; i++) {
-    sum+=i;
+function repeatStr (n, s) {
+  let slovo='';
+  for (let i=1; i<=n; i++) {
+    slovo+=s;
   }
-    return sum;
+  return slovo;
 }
 
 
