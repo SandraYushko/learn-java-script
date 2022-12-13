@@ -1,16 +1,8 @@
 
-function basicOp(operation, value1, value2)
-{
-  // Code
-  if (operation=="+") {
-    return value1+value2;}
-else if (operation=="-") {
-    return value1-value2;} 
-else if (operation=="*") {
-    return value1*value2;}
-else {
-    return value1/value2;}    
-}
+function getAge(inputString){
+  // return the girl's correct age as an integer. Happy coding :) 
+    return parseInt(inputString);
+  }
 
 
 
