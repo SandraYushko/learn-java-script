@@ -1,24 +1,15 @@
-const quarterOf = (month) => {
-  // Your code here
-  switch (month) {
-      case 1:
-      case 2:
-      case 3:
-      return 1
-      break;
-      case 4:
-      case 5:
-      case 6:
-      return 2
-      break;
-      case 7:
-      case 8:
-      case 9:
-      return 3
-      break;
-      case 10:
-      case 11:
-      case 12:
-      return 4
-      break; 
-}
+function switchItUp(number){
+  //Write your own Code!
+    switch (number) {
+    case 1:  return 'One';            break;
+    case 2:  return  'Two';            break;
+    case 3:  return  'Three';
+    case 4:  return  'Four';  break;
+    case 5:  return  'Five';  break;    
+    case 6:  return  'Six';  break;   
+    case 7:  return  'Seven';  break;   
+    case 8:  return  'Eight';  break; 
+    case 9:  return  'Nine';  break;    
+    default: return 'Zero';
+  }
+  }
