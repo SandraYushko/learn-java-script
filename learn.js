@@ -1,7 +1,6 @@
-function grow(x){
-  let proizvedenie=1;
-x.forEach(function(elem){
-  proizvedenie*=elem;
-});
-  return proizvedenie;
+function lovefunc(flower1, flower2){
+  // moment of truth
+  let test=(flower1+flower2)%2;
+  if (test>0) {return true}
+  else {return false}
 }
