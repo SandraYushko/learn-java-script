@@ -1,7 +1,7 @@
-function getAverage(marks){
-  //TODO : calculate the downward rounded average of the marks array
-  let itog=marks.reduce(function(sum,elem){
-    return sum+elem;
-  },0);
-  return Math.floor(itog/marks.length);
+function grow(x){
+  let proizvedenie=1;
+x.forEach(function(elem){
+  proizvedenie*=elem;
+});
+  return proizvedenie;
 }
