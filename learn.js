@@ -1,4 +1,4 @@
-function isDivisible(n, x, y) {
-  if (n%x==0&&n%y==0) {return true}
-  else {return false}
+function digitize(n) {
+  //code here
+  return String(n).split('').reverse().map(Number);
 }
