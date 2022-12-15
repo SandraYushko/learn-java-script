@@ -1,4 +1,5 @@
-function digitize(n) {
-  //code here
-  return String(n).split('').reverse().map(Number);
+function findNeedle(haystack) {
+  return `found the needle at position ${haystack.indexOf("needle")}`
+ 
+  
 }
