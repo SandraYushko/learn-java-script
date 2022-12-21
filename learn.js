@@ -1,9 +1,5 @@
-function reverseSeq(n) {
-  let massiv=[];
-    for (let i=n; i>0; i--){
-      massiv.push(i);
+function betterThanAverage(x, y) {
+  // Your code here
+  return x.reduce((sum,elem) => sum+elem, 0) / x.length < y;
   
-  }
-    
-  return massiv;
-};
+}
