@@ -1,5 +1,9 @@
-function simpleMultiplication(number) {
-  // your code........
-return (number%2)? number*9 : number*8;
-
-}
+function reverseSeq(n) {
+  let massiv=[];
+    for (let i=n; i>0; i--){
+      massiv.push(i);
+  
+  }
+    
+  return massiv;
+};
