@@ -1,5 +1,5 @@
-function betterThanAverage(x, y) {
-  // Your code here
-  return x.reduce((sum,elem) => sum+elem, 0) / x.length < y;
-  
+function DNAtoRNA(dna) {
+  // create a function which returns an RNA sequence from the given DNA sequence
+
+  return dna.replace(/T/g,'U');
 }
