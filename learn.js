@@ -1,4 +1,4 @@
-function greet(name){
+function booleanToString(b){
   //your code here
-  return `Hello, ${name} how are you doing today?`
+  return String(b);
 }
