@@ -6,7 +6,10 @@ let menu = {
 
 function multiplyNumeric(menu) {
   for (let key in menu) {
-    menu[key]*2;
+    if (typeof menu[key] == 'number') {
+      menu[key] *= 2;
+    }
   }
 }
+multiplyNumeric(menu);
 console.log(menu);
