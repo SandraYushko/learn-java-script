@@ -1,11 +1,12 @@
-let salaries = {
-  John: 100,
-  Ann: 160,
-  Pete: 130
-}
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
 
-let sum=0;
-for (let key in salaries) {
-  sum+=salaries[key];
+function multiplyNumeric(menu) {
+  for (let key in menu) {
+    menu[key]*2;
+  }
 }
-console.log(sum);
+console.log(menu);
