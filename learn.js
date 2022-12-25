@@ -1,20 +1,6 @@
-var humanYearsCatYearsDogYears = function(humanYears) {
-  // Your code here!
-  let CatYears=0;
-  let DogYears=0;
-  
-  if (humanYears==1) {
-    CatYears+=15;
-    DogYears+=15;
-  }
-  else if (humanYears==2) {
-    CatYears+=15+9;
-    DogYears+=15+9;
-  }
-   else {
-    CatYears+=15+9+(humanYears-2)*4;
-    DogYears+=15+9+(humanYears-2)*5;
-  }
-  
-  return [humanYears,CatYears,DogYears];
+function barTriang(p1, p2, p3){
+  //your code here
+  let x0 = +((p1[0] + p2[0] + p3[0])/3).toFixed(4);
+  let y0 = +((p1[1] + p2[1] + p3[1])/3).toFixed(4);
+  return [x0, y0];
 }
