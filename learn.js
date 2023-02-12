@@ -1,7 +1,10 @@
-function ucFirst(str) {
-  if (!str) return str;
+function checkSpam(str) {
+  let strNew=str.toLowerCase();
 
-  return str[0].toUpperCase() + str.slice(1);
+  return strNew.includes('viagra') || strNew.includes('xxx') 
+  
 }
 
-alert( ucFirst("вася") );
+checkSpam('buy ViAgRA now'); 
+checkSpam('free xxxxx'); 
+checkSpam("innocent rabbit");
