@@ -1,10 +1,5 @@
-function checkSpam(str) {
-  let strNew=str.toLowerCase();
-
-  return strNew.includes('viagra') || strNew.includes('xxx') 
-  
+function truncate(str, maxlength) {
+    
+  return (str.length > maxlength) ?
+  str.slice(0, maxlength - 1) + '…' : str;
 }
-
-checkSpam('buy ViAgRA now'); 
-checkSpam('free xxxxx'); 
-checkSpam("innocent rabbit");
