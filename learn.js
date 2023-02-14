@@ -1,3 +1,13 @@
-let number1 = prompt("Введите первое число");
-let number2 = prompt("Введите второе число");
-alert (+number1+ +number2);
+function readNumber() {
+  let num;
+
+  do {
+    num = prompt("Введите число", 0);
+  } while ( !isFinite(num) );
+
+  if (num === null || num === '') return null;
+
+  return +num;
+}
+
+alert(`Число: ${readNumber()}`);
