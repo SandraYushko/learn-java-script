@@ -1,9 +1,11 @@
-let users = [
-  {id: 1, name: "Вася"},
-  {id: 2, name: "Петя"},
-  {id: 3, name: "Маша"}
-];
+function compareNumeric(a, b) {
+  if (a > b) return 1;
+  if (a == b) return 0;
+  if (a < b) return -1;
+}
 
-let user = users.find(item => item.id == 1);
+let arr = [ 1, 2, 15 ];
 
-alert(user.name); // Вася
+arr.sort(compareNumeric);
+
+alert(arr);  // 1, 2, 15
