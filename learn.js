@@ -1,21 +1,10 @@
-let army = {
-  minAge: 18,
-  maxAge: 27,
-  canJoin(user) {
-    return user.age >= this.minAge && user.age < this.maxAge;
-  }
-};
+function camelize(str) {
+  console.log(str.split("-").map((word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1)).join(''))
+}
 
-let users = [
-  {age: 16},
-  {age: 20},
-  {age: 23},
-  {age: 30}
-];
 
-// найти пользователей, для которых army.canJoin возвращает true
-let soldiers = users.filter(army.canJoin, army);
 
-alert(soldiers.length); // 2
-alert(soldiers[0].age); // 20
-alert(soldiers[1].age); // 23
+
+camelize("background-color");
+camelize("list-style-image");
+camelize("-webkit-transition");
