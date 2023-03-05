@@ -1,10 +1,10 @@
-function camelize(str) {
-  console.log(str.split("-").map((word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1)).join(''))
+function filterRangeInPlace(arr, a, b) {
+  arr = arr.slice(a,(b-1));
+  console.log(arr);
+  alert( arr ); // [3, 1]
 }
 
+let arr = [5, 3, 8, 1];
+filterRangeInPlace(arr, 1, 4); // удалены числа вне диапазона 1..4
 
 
-
-camelize("background-color");
-camelize("list-style-image");
-camelize("-webkit-transition");
