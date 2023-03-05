@@ -1,11 +1,11 @@
-let arr = ["HTML", "JavaScript", "CSS"];
-function copySorted (arr) {
-  return arr.slice().sort((a,b)=>a.localeCompare(b));
-}
+let vasya = { name: "Вася", age: 25 };
+let petya = { name: "Петя", age: 30 };
+let masha = { name: "Маша", age: 28 };
 
-let sorted = copySorted(arr);
+let users = [ vasya, petya, masha ];
 
-alert( sorted ); // CSS, HTML, JavaScript
-alert( arr ); // HTML, JavaScript, CSS (без изменений)
+let names = [users.name];
+
+alert( names ); // Вася, Петя, Маша
 
 
