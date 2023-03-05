@@ -1,7 +1,11 @@
-let arr = [5, 2, 1, -10, 8];
+let arr = ["HTML", "JavaScript", "CSS"];
+function copySorted (arr) {
+  return arr.slice().sort((a,b)=>a.localeCompare(b));
+}
 
-// ... ваш код для сортировки по убыванию
-arr.sort(function(a,b) {return b-a});
-alert( arr ); // 8, 5, 2, 1, -10
+let sorted = copySorted(arr);
+
+alert( sorted ); // CSS, HTML, JavaScript
+alert( arr ); // HTML, JavaScript, CSS (без изменений)
 
 
