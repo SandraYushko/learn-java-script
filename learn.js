@@ -1,7 +1,4 @@
-function filter_list(l) {
-  // Return a new array with the strings filtered out
-  return l.filter(item => typeof item==='number');
-   
+// Write the "square"-function here
+function square(x){
+  return x*x;
 }
-
-filter_list([1,2,'a','b']) 
