@@ -1,15 +1,16 @@
-let vasya = { name: "Вася", age: 25 };
-let petya = { name: "Петя", age: 30 };
-let masha = { name: "Маша", age: 29 };
+function unique(arr) {
+  /* ваш код */
+  let result = [];
+  for (let i=0; i<arr.length; i++) {
+    if (!result.includes(arr[i])) {
+      result.push(arr[i]);
+    }
+  }
+  alert (result);
+}
 
-let arr = [ vasya, petya, masha ];
-let sum=0;
-function getAverageAge(arr) {
-  arr.forEach(function(elem){
-    sum+=elem.age;
-  });
-  return sum/arr.length;  
-};
+let strings = ["кришна", "кришна", "харе", "харе",
+  "харе", "харе", "кришна", "кришна", ":-O"
+];
 
-
-alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
+alert( unique(strings) ); // кришна, харе, :-O
