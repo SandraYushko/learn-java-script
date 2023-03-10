@@ -7,6 +7,19 @@
   <title>учебный файл</title>
   <script>alert("Hello")</script>
   <script src="learn.js"></script>
+  <select id="genres">
+    <option value="rock">Рок</option>
+    <option value="blues" selected>Блюз</option>
+    <option value="classic" selected>Классика</option>
+  </select>
+
+  <script>
+    // все три строки делают одно и то же
+    select.options[2].selected = true;
+    select.selectedIndex = 2;
+    select.value = "classic";
+  </script>
+
 </head>
 <body>
   
