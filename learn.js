@@ -1,2 +1,2 @@
-
+Object.keys({name:'Sasha'});
 
