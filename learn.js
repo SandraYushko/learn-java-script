@@ -1,2 +1,4 @@
-Object.values({name:'Sasha', learn:'JS'});
+function showMessage() {
+  alert( 'Всем привет!' );
+}
 
