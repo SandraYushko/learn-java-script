@@ -1,13 +1,9 @@
-function getCount(str) {
-    let sumGlasnih=0;
-    let str2=[...str];
-    str2.forEach(function(elem){
-      if ((elem=="a") || (elem=="e") || (elem=="i") || (elem=="o") || (elem=="u") )
-      {sumGlasnih+=1;}
-    });
+function isPythagoreanTriple(integers) {
+  // Good luck friends!
+let integers1 = integers.sort(function(a,b){return a-b});
+if (integers1[0]*integers1[0] + integers1[1]*integers1[1] == integers1[2]*integers1[2]) {return true}
+  else {return false}
+}
 
-    return sumGlasnih;
-  }
-   
-getCount('abracadabra');
+isPythagoreanTriple([3, 4, 5]);
 
