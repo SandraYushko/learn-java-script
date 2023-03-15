@@ -1,10 +1,7 @@
-function getGrade (s1, s2, s3) {
-  // Code here
-  let score = (s1 + s2 + s3)/3;
-  if (90 <= score && score <= 100)	{return 'A'}
-  else if (80 <= score && score < 90)	{return 'B'}
-  else if (70 <= score && score < 80)	{return 'C'}
-  else if (60 <= score && score < 70)	{return 'D'}
-  else if (0 <= score && score < 60)	{return 'F'}
+function isTriangle(a,b,c)
+{
+  if (a+b>c && a+c>b && b+c>a)
+   return true;
+  else return false;
 }
 
