@@ -1,7 +1,16 @@
-function isTriangle(a,b,c)
-{
-  if (a+b>c && a+c>b && b+c>a)
-   return true;
-  else return false;
-}
+let ask = (question, yes, no) => {
+  (confirm(question)) ?
+      yes() :
+      no();
+ }
+ 
+ 
+ 
+ 
+ 
+ ask(
+   "Вы согласны?",
+   function() { alert("Вы согласились."); },
+   function() { alert("Вы отменили выполнение."); }
+ );
 
