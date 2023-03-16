@@ -1,5 +1,4 @@
-function reverseWords(str) {
-  // Go for it
-  return str.split(" ").map(word => [...word].reverse().join("")).join(" ");
+function shortcut (string) {
+  return string.replace(/a/g,'').replace(/e/g,'').replace(/i/g,'').replace(/o/g,'').replace(/u/g,'');
 }
 
