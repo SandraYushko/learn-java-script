@@ -1,16 +1,5 @@
-let ask = (question, yes, no) => {
-  (confirm(question)) ?
-      yes() :
-      no();
- }
- 
- 
- 
- 
- 
- ask(
-   "Вы согласны?",
-   function() { alert("Вы согласились."); },
-   function() { alert("Вы отменили выполнение."); }
- );
+function reverseWords(str) {
+  // Go for it
+  return str.split(" ").map(word => [...word].reverse().join("")).join(" ");
+}
 
