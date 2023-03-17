@@ -1,6 +1,5 @@
-function doubleChar(str) {
-  // Your code here
-return str.split("").map(el => el+el).join("");
+function removeExclamationMarks(s) {
+  return s.replace(/!/g,"");
 }
 
 
