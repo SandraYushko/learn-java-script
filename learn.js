@@ -1,6 +1,8 @@
-function disemvowel(str) {
-  return str.replace(/a/g,'').replace(/e/g,'').replace(/i/g,'').replace(/o/g,'').replace(/u/g,'').replace(/A/g,'').replace(/E/g,'').replace(/I/g,'').replace(/O/g,'').replace(/U/g,'');
+function doubleChar(str) {
+  // Your code here
+return str.split("").map(el => el+el).join("");
 }
+
 
 
 
