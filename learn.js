@@ -1,19 +1,11 @@
-class Comment {
-  constructor (text){
-    this.text=text
-    this.votesQty = 0
+function findNextSquare(sq) {
+  // Return the next square if sq is a perfect square, -1 otherwise
+  let number = Math.sqrt(sq);
+  if (Number.isInteger(number)) {
+    return Math.pow((number+1),2)
   }
-    
-  upvote(){
-    this.votesQty +=1
-  }
-
-  static mergeComments(first, second){
-      return `${first} ${second}`
+  else return -1;
 }
-
-const firstComment = new Comment("First comment")
-const secondComment = new Comment("Second comment")
 
 
 
