@@ -1,10 +1,12 @@
-function findNextSquare(sq) {
-  // Return the next square if sq is a perfect square, -1 otherwise
-  let number = Math.sqrt(sq);
-  if (Number.isInteger(number)) {
-    return Math.pow((number+1),2)
+var number = function(busStops){
+  // Good Luck!
+  let sum = 0;
+  let numberOfPeople = 0;
+  for (const key in busStops){
+    sum = busStops[key][0] - busStops[key][1];
+    numberOfPeople += sum; 
   }
-  else return -1;
+  return numberOfPeople;
 }
 
 
