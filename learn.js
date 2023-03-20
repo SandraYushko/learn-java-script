@@ -1,7 +1,5 @@
-function testEven(n) {
-  //Your awesome code here!
-if (n%2 ==0) return true
-else return false
+function minMax(arr){
+  return [Math.min.apply(null,arr),Math.max.apply(null,arr)]; // fix me!
 }
 
 
