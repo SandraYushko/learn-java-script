@@ -1,10 +1,7 @@
-function nbYear(p0, percent, aug, p) {
-  let years = 0;
-  for (years; p0 < p; years++) {
-    p0 += p0 * (percent / 100) + aug;
+function twoSort(s) {
+  let massiv = s.sort();
+  return massiv[0].split("").join('***');
   }
-  return years;
-}
 
 
 
