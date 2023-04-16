@@ -1,7 +1,6 @@
-function highAndLow(numbers){
-  console.log(`${Math.max.apply(null, numbers.split(" "))} ${Math.min.apply(null, numbers.split(" "))}`);
+function friend(friends){
+  return friends.filter(function (item) { return item.length === 4 });
 }
-highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4")
 
 
 
