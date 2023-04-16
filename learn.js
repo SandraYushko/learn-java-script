@@ -1,10 +1,6 @@
-function accum(s) {
-  // your code
-  return (s.split("").map((item, index) => (item.toUpperCase() + item.repeat(index).toLowerCase())).join('-'));
+function reverseList(list) {
+  return list.reverse()
 }
-
-
-accum("ZpglnRxqenU");
 
 
 
