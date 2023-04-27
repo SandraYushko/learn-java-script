@@ -1,8 +1,8 @@
-function removeUrlAnchor(url){
-  // TODO: complete
-  let end=url.indexOf("#");
-  if (end>0) {return url.slice(0,end)}
-  else return url;
+function sumMix(x){
+  let result = x.reduce(function(sum,elem){
+    return sum+Number(elem);
+  },0);
+  return result;
 }
 
 
