@@ -1,11 +1,9 @@
-function updateLight(current) {
+function pillars(numPill, dist, width) {
 
-  if (current == "green") return "yellow"
-  if (current == "yellow") return "red"
-  if (current == "red") return "green"
+  if (numPill===1) return 0
+  else return (numPill-1)*dist*100+width*(numPill-2)
 
 }
-updateLight("red")
 
 
 
