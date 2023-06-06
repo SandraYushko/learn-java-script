@@ -1,6 +1,14 @@
-function hero(bullets, dragons){
-  return (bullets/dragons >= 2) ? true : false
+var min = function(list){
+
+  return Math.min.apply(null, list);
 }
+
+var max = function(list){
+
+  return Math.max.apply(null, list);
+}
+
+
 
 
 
