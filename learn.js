@@ -1,12 +1,11 @@
-function setAlarm(employed, vacation){
-  if (employed && vacation) return false
-  else if (!employed && vacation) return false
-  else if (!employed && !vacation) return false
-  else if (employed && !vacation) return true
-
+function rentalCarCost(d) {
+  if (d>=7) return d*40-50
+  else if (d>=3 && d<7) return d*40-20
+  return d*40
 }
 
-setAlarm(true, false)
+rentalCarCost(2)
+
 
 
 
