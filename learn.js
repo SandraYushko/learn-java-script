@@ -1,10 +1,11 @@
-function rentalCarCost(d) {
-  if (d>=7) return d*40-50
-  else if (d>=3 && d<7) return d*40-20
-  return d*40
+function feast(beast, dish) {
+
+  if ((beast[0] == dish[0])  &&  (beast[beast.length-1] == dish[dish.length-1])) {return true}
+  return false
 }
 
-rentalCarCost(2)
+feast("chickadee", "chocolate cake")
+feast("brown bear", "bear claw")
 
 
 
