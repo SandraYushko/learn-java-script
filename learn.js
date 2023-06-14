@@ -1,11 +1,11 @@
-const areaOrPerimeter = function(l , w) {
-  // Return your answer
-  if (l == w) return l*w
-  else return (l+w)*2
-};
+function greet (name, owner) {
+  if (name === owner) return 'Hello boss'
+  else return 'Hello guest'
 
-areaOrPerimeter(3,  3)
-areaOrPerimeter(6, 10)
+}
+
+greet('Daniel', 'Daniel')
+greet('Greg', 'Daniel')
 
 
 
