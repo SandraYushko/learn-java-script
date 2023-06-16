@@ -1,12 +1,7 @@
-function squareDigits(num){
-  let numString = String(num)
-  let newNumString=""
-  for (let i=0; i<numString.length; i++) newNumString += String(numString[i]*numString[i])
-  return +newNumString
+function enough(cap, on, wait) {
+  if (cap-on-wait > 0) return 0
+  else return wait-(cap-on)
 }
-
-squareDigits(3212)
-squareDigits(2112)
 
 
 
