@@ -1,13 +1,10 @@
-function getMiddle(s) {
-  let otstup = Math.ceil(s.length/2)-1;
-  return (s.length==1)
-      ? s
-      : s.slice(otstup, -otstup)
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld-sonYearsOld*2)
 }
 
-getMiddle("test")
-getMiddle("A")
-
+twiceAsOld(36,7)
+twiceAsOld(55,30)
+twiceAsOld(42,21)
 
 
 
