@@ -1,11 +1,15 @@
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-  return Math.abs(dadYearsOld-sonYearsOld*2)
+function isIsogram(str){
+  let massiv = str.split(" ")
+  for (let i=0; i<str.length; i++) {
+    if (massiv.includes(massiv[i],i)) return true
+  }
 }
 
 
-twiceAsOld(36,7)
-twiceAsOld(55,30)
-twiceAsOld(42,21)
+isIsogram("aba")
+isIsogram("moOse")
+isIsogram("isIsogram")
+
 
 
 
