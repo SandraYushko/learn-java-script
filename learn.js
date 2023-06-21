@@ -1,14 +1,11 @@
-function isIsogram(str){
-  let massiv = str.split(" ")
-  for (let i=0; i<str.length; i++) {
-    if (massiv.includes(massiv[i],i)) return true
-  }
+function checkForFactor (base, factor) {
+  return (base%factor == 0)
+      ? true
+      : false
 }
 
-
-isIsogram("aba")
-isIsogram("moOse")
-isIsogram("isIsogram")
+checkForFactor(2450,5)
+checkForFactor(24612,3)
 
 
 
