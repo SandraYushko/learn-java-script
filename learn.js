@@ -1,13 +1,17 @@
-function checkForFactor (base, factor) {
-  return (base%factor == 0)
-      ? true
-      : false
+function XO(str) {
+    let sumX = 0;
+    let sumO = 0;
+    for (let i = 0; i < str.length; i++) {
+        if ((str[i] == "x") || (str[i] == "X")) sumX++
+        else if ((str[i] == "o") || (str[i] == "O")) sumO++
+    }
+    return sumX === sumO;
 }
 
-checkForFactor(2450,5)
-checkForFactor(24612,3)
 
 
+//XO("xxOo")
+//XO("xxxm")
 
 
 
