@@ -1,5 +1,7 @@
-String.prototype.toAlternatingCase = function () {
-    return this.split("").map(s=>s===s.toLowerCase() ? s.toUpperCase() : s.toLowerCase()).join("");
+var number=function(array){
+    if (array==[]) {return []}
+
+    return array.map((s, index) => `${index+1}: ${s}` )
 }
 
 
