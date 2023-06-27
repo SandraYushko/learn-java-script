@@ -1,15 +1,9 @@
-function validatePIN (pin) {
-
-    if (pin.length!=4 && pin.length!=6) {
-        return false
+function strCount(str, letter){
+    let sum=0
+    for (let i=0; i<str.length; i++) {
+        if (str[i]===letter) ++sum
     }
-
-    for (let i=0; i<pin.length; i++){
-        if (pin[i]<"0" || pin[i]>"9") {
-            return false
-        }
-    }
-    return true
+    return sum
 }
 
 
