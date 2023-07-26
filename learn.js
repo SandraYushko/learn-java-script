@@ -1,7 +1,11 @@
-function between(a, b) {
-    let massiv=[]
-    for (let i=a; i<=b; i++) {massiv.push(i)}
-    return massiv
+function createArray(number){
+    var newArray = [];
+
+    for(var counter = 1; counter <= number; counter++){
+        newArray.push(counter);
+    }
+
+    return newArray;
 }
 
 
