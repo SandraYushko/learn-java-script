@@ -1,10 +1,6 @@
-function pipeFix(numbers){
-    let res = []
-
-    for (let i=numbers[0]; i<=numbers[numbers.length-1];i++) {
-        res.push(i)
-    }
-    return res
+function addLength(str) {
+    let massiv=str.split(' ')
+    return massiv.map(el=>`${el} ${el.length}`)
 }
 
 
