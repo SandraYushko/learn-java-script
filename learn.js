@@ -1,6 +1,5 @@
-function addLength(str) {
-    let massiv=str.split(' ')
-    return massiv.map(el=>`${el} ${el.length}`)
+function solution(a, b){
+    return a.length < b.length ?  `${a}${b}${a}` : `${b}${a}${b}`;
 }
 
 
