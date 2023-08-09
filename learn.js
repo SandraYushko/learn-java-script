@@ -1,6 +1,9 @@
-function solution(a, b){
-    return a.length < b.length ?  `${a}${b}${a}` : `${b}${a}${b}`;
+function findMultiples(integer, limit) {
+    let massiv=[]
+    for (let i=integer; i<=limit; i+=integer){
+        massiv.push(i)
+    }
+    return massiv
 }
-
 
 
