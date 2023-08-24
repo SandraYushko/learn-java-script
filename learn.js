@@ -1,5 +1,5 @@
-function sayHello( name, city, state ) {
-    return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+function distinct(a) {
+    return [...new Set(a)]
 }
 
 
