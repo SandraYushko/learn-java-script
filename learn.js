@@ -1,3 +1,3 @@
-const solve = (x, y) => x /y
+twoHighest = (arr) => [...new Set(arr.sort((a,b)=>b-a))].slice(0,2)
 
 
