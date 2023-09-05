@@ -1,3 +1,5 @@
-twoHighest = (arr) => [...new Set(arr.sort((a,b)=>b-a))].slice(0,2)
+var replaceDots = function(str) {
+    return str.replace(/[.]/gi, '-');
+}
 
 
