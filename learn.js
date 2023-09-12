@@ -1,5 +1,5 @@
-var replaceDots = function(str) {
-    return str.replace(/[.]/gi, '-');
+function getASCII(c){
+    return c.charCodeAt(0)
 }
 
 
