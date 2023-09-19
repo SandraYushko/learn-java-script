@@ -1,19 +1,31 @@
-import { sculptureList } from './data.js';
 import { useState } from 'react';
+import { sculptureList } from './data.js';
 
 export default function Gallery() {
+    const [index, setIndex] = useState(0);
+    const [showMore, setShowMore] = useState(false);
 
-    [index, setNewindex] = useState(0)
-    function handleClick() {
-        setNewindex(index + 1)
+    function handleNextClick() {
+        if (index<11) {setIndex(index + 1)}
+        else setIndex(index);
+    }
+    function handlePreviousClick() {
+        if (index>0) {setIndex(index - 1)}
+        else setIndex(index);
+    }
+
+    function handleMoreClick() {
+        setShowMore(!showMore);
     }
 
     let sculpture = sculptureList[index];
     return (
-        <>
-            <button onClick={handleClick}>
-                Next
-            </button>
+        <div>
+            <div>
+                <button onClick={handleNextClick}>Next</button>
+                <button onClick={handlePreviousClick}>Previous</button>
+            </div>
+
             <h2>
                 <i>{sculpture.name} </i>
                 by {sculpture.artist}
@@ -21,14 +33,15 @@ export default function Gallery() {
             <h3>
                 ({index + 1} of {sculptureList.length})
             </h3>
+            <button onClick={handleMoreClick}>
+                {showMore ? 'Hide' : 'Show'} details
+            </button>
+            {showMore && <p>{sculpture.description}</p>}
             <img
                 src={sculpture.url}
                 alt={sculpture.alt}
             />
-            <p>
-                {sculpture.description}
-            </p>
-        </>
+        </div>
     );
 }
 
