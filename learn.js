@@ -1,14 +1,16 @@
-export default function FeedbackForm() {
-
-
+export default function LightSwitch() {
     function handleClick() {
-        let name = prompt('What is your name?');
-        alert(`Hello, ${name}!`);
+        let bodyStyle = document.body.style;
+        if (bodyStyle.backgroundColor === 'black') {
+            bodyStyle.backgroundColor = 'white';
+        } else {
+            bodyStyle.backgroundColor = 'black';
+        }
     }
 
     return (
         <button onClick={handleClick}>
-            Greet
+            Toggle the lights
         </button>
     );
 }
