@@ -1,14 +1,6 @@
-export default function ColorSwitch({
-                                        onChangeColor
-                                    }) {
-    return (
-        <button onClick={(e) => {
-            e.stopPropagation();
-            onChangeColor();
-        }}>
-            Change color
-        </button>
-    );
+function periodIsLate(last, today, cycleLength) {
+    if (((today-last)/(60 * 60 * 24 * 1000)) > cycleLength) return true
+    else return false
 }
 
 
