@@ -1,5 +1,4 @@
-function getASCII(c){
-    return c.charCodeAt(0)
-}
+const getASCII = c => c.charCodeAt(0)
+
 
 
