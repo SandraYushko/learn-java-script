@@ -1,4 +1,7 @@
-let amIWilson = p => [5, 13, 563].includes(p)
+function bigToSmall(arr){
+    return [].concat(...arr).sort((a,b)=>b-a).join('>')
+
+}
 
 
 
