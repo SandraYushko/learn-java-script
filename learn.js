@@ -1,4 +1,11 @@
-const bigToSmall = (arr) => [].concat(...arr).sort((a,b)=>b-a).join('>')
+function doTurn() {
+    rollDice();
+    move();
+    combat();
+    getCoins();
+    buyHealth();
+    printStatus();
+}
 
 
 
