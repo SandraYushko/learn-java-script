@@ -1,4 +1,4 @@
-function doTurn() {
+const doTurn = () => {
     rollDice();
     move();
     combat();
