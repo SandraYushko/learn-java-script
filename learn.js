@@ -1,15 +1,8 @@
-function expressionMatter(a, b, c) {
-    const combinations = [
-        a + b + c,
-        a * b * c,
-        a * (b + c),
-        (a + b) * c,
-        a * b + c,
-        a + b * c,
-    ];
+function gooseFilter (birds) {
+    let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    return birds.filter(el=>!geese.includes(el))
 
-    return Math.max(...combinations);
-}
+};
 
 
 
