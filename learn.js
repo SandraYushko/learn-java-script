@@ -1,8 +1,6 @@
-function gooseFilter (birds) {
-    let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-    return birds.filter(el=>!geese.includes(el))
-
-};
+function move (position, roll) {
+    return roll*2+position
+}
 
 
 
