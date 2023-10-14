@@ -1,6 +1,4 @@
-function move (position, roll) {
-    return roll*2+position
-}
+const move = (position, roll) => roll*2+position
 
 
 
