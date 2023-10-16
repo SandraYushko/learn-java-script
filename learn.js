@@ -1,4 +1,8 @@
-const squareOrSquareRoot = (array) => array.map(el => Number.isInteger(Math.sqrt(el)) ? Math.sqrt(el) : el*el )
+function checkAlive (health) {
+    if (health <= 0) {
+        return false
+    } else return true
+}
 
 
 
