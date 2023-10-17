@@ -1,4 +1,4 @@
-const checkAlive = (health) => health > 0
+const fixTheMeerkat = (arr) => arr.reverse()
 
 
 
