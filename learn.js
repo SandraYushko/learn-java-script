@@ -1,8 +1,5 @@
-function flickSwitch(arr){
-    let start = true
-    return arr.map(el => {
-        return (el === 'flick') ? start=!start : start
-    } )
+function hexToDec(hexString){
+    return parseInt(hexString, 16)
 }
 
 
