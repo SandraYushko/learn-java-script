@@ -1,8 +1,7 @@
-function distanceBetweenPoints(a, b) {
-    const distanceВX = b.x - a.x;
-    const distanceВY = b.y - a.y;
-    const distance = Math.sqrt(distanceВX ** 2 + distanceВY ** 2);
-    return distance;
+function excludingVatPrice(price){
+    if (price === null) return -1
+    let num=price/1.15
+    return +num.toFixed(2)
 }
 
 
