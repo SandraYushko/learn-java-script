@@ -1,7 +1,5 @@
-function excludingVatPrice(price){
-    return (price === null)
-    ? -1
-    : +(price/1.15).toFixed(2)
+function binToDec(bin) {
+    return parseInt(bin,2)
 }
 
 
