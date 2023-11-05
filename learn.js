@@ -1,6 +1,4 @@
-function binToDec(bin) {
-    return parseInt(bin,2)
-}
+let binToDec = (bin) => parseInt(bin,2)
 
 
 
