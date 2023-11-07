@@ -1,6 +1,4 @@
-function dutyFree(normPrice, discount, hol){
-    return Math.floor(hol/(normPrice*discount/100))
-}
+let dutyFree = (normPrice, discount, hol) => Math.floor(hol/(normPrice*discount/100))
 
 
 
