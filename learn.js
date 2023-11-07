@@ -1,4 +1,7 @@
-let binToDec = (bin) => parseInt(bin,2)
+function mystery() {
+    let results = {sanity: 'Hello'};
+    return results;
+}
 
 
 
