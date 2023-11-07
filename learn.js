@@ -1,6 +1,5 @@
-function mystery() {
-    let results = {sanity: 'Hello'};
-    return results;
+function dutyFree(normPrice, discount, hol){
+    return Math.floor(hol/(normPrice*discount/100))
 }
 
 
