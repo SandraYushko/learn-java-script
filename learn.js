@@ -1,7 +1,4 @@
-function aspectRatio(x,y){
-    x=Math.ceil(y*16/9)
-    return [x,y]
-}
+const aspectRatio = (x,y) => [Math.ceil(y*16/9),y]
 
 
 
