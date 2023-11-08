@@ -1,4 +1,7 @@
-let dutyFree = (normPrice, discount, hol) => Math.floor(hol/(normPrice*discount/100))
+function aspectRatio(x,y){
+    x=Math.ceil(y*16/9)
+    return [x,y]
+}
 
 
 
