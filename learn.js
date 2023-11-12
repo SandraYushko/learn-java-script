@@ -1,4 +1,9 @@
-const array = s => s.split(",").slice(1,-1).join(" ") || null
+function anyArrows(arrows){
+    // arrow it
+    let newArr = arrows.filter(a => a.damaged !== true);
+    if (newArr.length>0) return true
+    else return false
+}
 
 
 
