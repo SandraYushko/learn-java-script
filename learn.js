@@ -1,4 +1,8 @@
-let anyArrows = (arrows) => arrows.some(a => !a.damaged)
+function addExtra( listOfNumbers ){
+    let newList = [...listOfNumbers]
+    newList.push(13)
+    return newList
+}
 
 
 
