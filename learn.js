@@ -1,8 +1,4 @@
-function addExtra( listOfNumbers ){
-    let newList = [...listOfNumbers]
-    newList.push(13)
-    return newList
-}
+let addExtra = (listOfNumbers) => [...listOfNumbers,13]
 
 
 
