@@ -1,4 +1,4 @@
-let addExtra = (listOfNumbers) => [...listOfNumbers,13]
+let isDigit = s => s == parseFloat(s)
 
 
 
