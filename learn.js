@@ -1,6 +1,4 @@
-function buildString(...template){
-    return `I like ${template.join(', ')}!`;
-}
+let buildString = (...template) => `I like ${template.join(', ')}!`
 
 
 
