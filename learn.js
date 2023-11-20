@@ -1,4 +1,6 @@
-let isDigit = s => s == parseFloat(s)
+function buildString(...template){
+    return `I like ${template.join(', ')}!`;
+}
 
 
 
