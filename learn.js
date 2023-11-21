@@ -1,4 +1,13 @@
-let buildString = (...template) => `I like ${template.join(', ')}!`
+function sumMul(n,m){
+    let sum = 0
+    if (m>n) {
+        for (let i=0; i<m; i+=n) {
+            sum+=i
+        }
+        return sum
+    }
+    else return "INVALID"
+}
 
 
 
