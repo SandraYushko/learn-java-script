@@ -1,12 +1,9 @@
-function sumMul(n,m){
+var findAverage = function (nums) {
     let sum = 0
-    if (m>n) {
-        for (let i=0; i<m; i+=n) {
-            sum+=i
-        }
-        return sum
+    for (let i=0; i<nums.length; i++){
+        sum += nums[i]
     }
-    else return "INVALID"
+    return sum/nums.length
 }
 
 
