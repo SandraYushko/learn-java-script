@@ -1,6 +1,4 @@
-function printArray(array){
-    return array.toString()
-}
+let printArray = (array) => array.toString()
 
 
 
