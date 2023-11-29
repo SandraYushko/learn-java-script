@@ -1,7 +1,11 @@
-function match(candidate, job) {
-    if (!candidate.minSalary || !job.maxSalary)
-        throw error
-    return candidate.minSalary*0.9 <= job.maxSalary
+function lowercaseCount(str){
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] >= 'a' && str[i] <= 'z') {
+            count++;
+        }
+    }
+    return count;
 }
 
 
