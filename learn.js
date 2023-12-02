@@ -1,6 +1,4 @@
-function whoIsPaying(name){
-    return name.length >2 ? [name, name.substr(0,2)] : [name]
-}
+const whoIsPaying = (name) => name.length >2 ? [name, name.substr(0,2)] : [name]
 
 
 
