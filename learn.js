@@ -1,11 +1,5 @@
-function lowercaseCount(str){
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] >= 'a' && str[i] <= 'z') {
-            count++;
-        }
-    }
-    return count;
+function whoIsPaying(name){
+    return name.length >2 ? [name, name.substr(0,2)] : [name]
 }
 
 
