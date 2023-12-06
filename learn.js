@@ -1,9 +1,9 @@
-function tripleTrouble(one, two, three){
-    let str = one[0]+two[0]+three[0]
-    for (let i=1; i<one.length; i++) {
-        str += one[i]+two[i]+three[i]
-    }
-    return str
+function symmetricPoint(p, q) {
+    const dx = q[0] - p[0];
+    const dy = q[1] - p[1];
+    const x = q[0] + dx;
+    const y = q[1] + dy;
+    return [x, y];
 }
 
 
