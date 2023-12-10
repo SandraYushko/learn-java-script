@@ -1,4 +1,7 @@
-let symmetricPoint = (p, q) => [2*q[0]-p[0], 2*q[1]-p[1]]
+function htmlspecialchars(formData) {
+    formData = formData.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    return formData;
+}
 
 
 
