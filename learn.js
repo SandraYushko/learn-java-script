@@ -1,7 +1,4 @@
-function remainder(n, m){
-    return (n>m) ? n%=m : m%=n
-
-}
+let remainder= (n, m) => (n>m) ? n%=m : m%=n
 
 
 
