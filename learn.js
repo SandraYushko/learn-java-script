@@ -1,4 +1,9 @@
-let remainder= (n, m) => (n>m) ? n%=m : m%=n
+function formatMoney(amount){
+    return '$'+amount.toFixed(2)
+}
+
+
+
 
 
 
