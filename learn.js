@@ -1,4 +1,9 @@
-let _if = (bool, func1, func2) => bool ? func1() : func2()
+var cubeChecker = function(volume, side){
+    if (volume>0||side>0) {
+        return side*side*side === volume ? true : false
+    }
+    return false
+};
 
 
 
