@@ -1,6 +1,5 @@
-function toCsvText(array) {
-    return array.join("\n")
-}
+let TempleStrings = (obj, feature) => `${obj} are ${feature}`
+
 
 
 
