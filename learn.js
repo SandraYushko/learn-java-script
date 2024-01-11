@@ -1,8 +1,8 @@
-function leo(oscar){
-    if (oscar===88) {return "Leo finally won the oscar! Leo is happy"}
-    if (oscar===86) {return "Not even for Wolf of wallstreet?!"}
-    if (oscar!==88&oscar!==86&oscar<88) {return "When will you give Leo an Oscar?"}
-    if (oscar>88) {return "Leo got one already!"}
+let leo = (oscar) => {
+    return (oscar===88) ? "Leo finally won the oscar! Leo is happy" :
+        (oscar===86) ? "Not even for Wolf of wallstreet?!" :
+            (oscar>88) ? "Leo got one already!" :
+                "When will you give Leo an Oscar?"
 }
 
 
