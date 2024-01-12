@@ -1,8 +1,8 @@
-let leo = (oscar) => {
-    return (oscar===88) ? "Leo finally won the oscar! Leo is happy" :
-        (oscar===86) ? "Not even for Wolf of wallstreet?!" :
-            (oscar>88) ? "Leo got one already!" :
-                "When will you give Leo an Oscar?"
+function warnTheSheep(queue) {
+    for (let i=0; i<queue.length; i++) {
+        if (queue[queue.length-1]==="wolf") {return "Pls go away and stop eating my sheep"}
+        if (queue[i]==="wolf") {return `Oi! Sheep number ${queue.length-i-1}! You are about to be eaten by a wolf!`}
+    }
 }
 
 
