@@ -1,12 +1,8 @@
-function contamination(text, char){
-    if (text==='' || char==='') {
-        return '';
+let myFirstKata = (a, b) => {
+    if (typeof(a) != "number" || typeof(b) != "number") {
+        return false;
     } else {
-        let result='';
-        for (let i=0; i<text.length; i++) {
-            result+=char
-        }
-        return result
+        return a % b + b % a;
     }
 }
 
