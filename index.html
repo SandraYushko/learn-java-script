@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Exam_2</title>
 </head>
+
 <body>
-<header>
-  <span>Account</span>
-</header>
-<main>
-  <h1>Basket</h1>
-  <form action="">
-    <input type="text">
-    <button type="submit">Send</button>
-  </form>
-</main>
-<footer>
-  <small>© IT-INCUBATOR</small>
-</footer>
+<script>
+  let man= {
+    name: "John",
+    age: 35,
+    gender: "male",
+    address: {
+      street: "123 Main St",
+      city: "Cityville",
+      state: "State",
+      country: "Country"
+    },
+    passport: {
+      number: "ABC123XYZ",
+    },
+    marital_status: "married",
+    child: [
+      {
+        name: "Emily",
+        age: 8
+      },
+    ]
+  };
+
+  let newPerson = {
+    ...man,
+    child: [
+      {
+        name: "Kate",
+        age: 11
+      }
+    ]
+  };
+
+  console.log(man);
+  console.log(newPerson);
+</script>
 </body>
+
 </html>
 
-<!-- Какое значение вместо XXX должно быть в атрибуте type="" у кнопки, которая отправляет данные из формы на сервер? -->
+
+
+// ! ЧИТАЙ ВНИМАТЕЛЬНО, НЕ СПЕШИ:
+// Помоги допилить код. Предыдущий программист начал создавать объект newPerson.
+// В нем он хотел поменять имя и возраст ребенка, но запутался, как это
+// правильно сделать, поэтому поставил заглушки XXX и YYY.
+// Необходимо через пробел написать два ключа.
+// Пример: ,,,,name age
+
+//...man child
+
 
 
 
