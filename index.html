@@ -1,62 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Exam_2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .link {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
-
 <body>
-<script>
-  let man= {
-    name: "John",
-    age: 35,
-    gender: "male",
-    address: {
-      street: "123 Main St",
-      city: "Cityville",
-      state: "State",
-      country: "Country"
-    },
-    passport: {
-      number: "ABC123XYZ",
-    },
-    marital_status: "married",
-    child: [
-      {
-        name: "Emily",
-        age: 8
-      },
-    ]
-  };
-
-  let newPerson = {
-    ...man,
-    child: [
-      {
-        name: "Kate",
-        age: 11
-      }
-    ]
-  };
-
-  console.log(man);
-  console.log(newPerson);
-</script>
+<header>
+  <nav>
+    <ul>
+      <li><a class="link">Python</a></li>
+      <li><a class="link">Sql</a></li>
+      <li><a class="link">PowerShell</a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <h1>Python</h1>
+</section>
+<footer>
+  <small>© IT-INCUBATOR</small>
+</footer>
 </body>
-
 </html>
 
 
+<!-- Что должно быть вместо XXX, YYY и ZZZ чтобы у ссылок убрать подчеркивание и сделать текст в них заглавными буквами?
+❗ В ответе укажи значения через пробел, вот так: XXX YYY ZZZ -->
 
-// ! ЧИТАЙ ВНИМАТЕЛЬНО, НЕ СПЕШИ:
-// Помоги допилить код. Предыдущий программист начал создавать объект newPerson.
-// В нем он хотел поменять имя и возраст ребенка, но запутался, как это
-// правильно сделать, поэтому поставил заглушки XXX и YYY.
-// Необходимо через пробел написать два ключа.
-// Пример: ,,,,name age
+a {
+text-decoration: none; /* Убираем подчеркивание */
+text-transform: uppercase; /* Делаем текст заглавными буквами */
+}
 
-//...man child
+text-decoration uppercase class
 
 
 
