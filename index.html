@@ -2,20 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-    <title>Mauritania</title>
-    </head>
-
-
-
+  <title>Exam_2</title>
+</head>
 <body>
-<h1>Hello from Mauritania 👋</h1>
+<script>
+  const checkAccess = (prof, level, age) => {
+    if ((prof === 'developer' && level === 'june' && age > 21) || (prof === 'developer' && level === 'middle' && age >= 18)) {
+      console.log('Оффер!');
+    } else {
+      console.log('Прокачивайся дальше, салага!');
+    }
+  };
+  checkAccess('developer', 'june', 25);
+  checkAccess('developer', 'middle', 18);
+</script>
 </body>
 </html>
 
-<!-- Что должно быть вместо XXX и YYY, чтобы правильно подключить файл со стилями style.css? -->
-    sstyle stylesheet
+
+// ! ЧИТАЙ ВНИМАТЕЛЬНО, НЕ СПЕШИ:
+// Помоги допиcать условие:
+// Если prof ==="developer " и ты мидл, то берем с 18 лет,
+// или если prof ==="developer " и ты джун, то берем с 21 года
+// Необходимо заменить ???  и написать через пробел ТРИ правильных значения:
+// Пример: *** ++ $$
+
+=== && ||
+
 
 
 
